@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Capstone Project Team</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(135deg, #141E30, #243B55);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 40px 60px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0,0,0,0.4);
+            animation: fadeIn 2s ease;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+
+        h2 {
+            margin-bottom: 30px;
+            font-weight: normal;
+            color: #cfd9df;
+        }
+
+        .member {
+            font-size: 22px;
+            margin: 12px 0;
+            animation: slideUp 1.5s ease;
+        }
+
+        .role {
+            font-size: 16px;
+            color: #a5d8ff;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        @keyframes slideUp {
+            from {transform: translateY(25px); opacity: 0;}
+            to {transform: translateY(0); opacity: 1;}
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>🚗 Automotive Capstone Project</h1>
+        <h2>QR-Based Team Identification</h2>
+
+        <div class="member">
+            👤 Utkarsh Mishra  
+            <div class="role">QA & Validation Engineer</div>
+        </div>
+
+        <div class="member">
+            👤 Member 2  
+            <div class="role">Python Developer</div>
+        </div>
+
+        <div class="member">
+            👤 Member 3  
+            <div class="role">Automation & Testing</div>
+        </div>
+
+        <footer>
+            Scan the QR Code to view project contributors
+        </footer>
+    </div>
+
+</body>
+</html>
