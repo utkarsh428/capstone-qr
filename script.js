@@ -1,7 +1,7 @@
-document.addEventListener("mousemove", (e) => {
-    const card = document.querySelector(".card");
-    const x = (window.innerWidth / 2 - e.pageX) / 30;
-    const y = (window.innerHeight / 2 - e.pageY) / 30;
+const card = document.querySelector('.card');
 
-    card.style.transform = `rotateX(${y}deg) rotateY(${x}deg)`;
+window.addEventListener('mousemove', (e) => {
+    const x = (window.innerWidth / 2 - e.pageX) / 40;
+    const y = (window.innerHeight / 2 - e.pageY) / 40;
+    card.style.transform = `translate(${x}px, ${y}px)`;
 });
