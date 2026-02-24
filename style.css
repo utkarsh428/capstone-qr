@@ -97,3 +97,12 @@ body {
     color: #007777;
     font-size: 14px;
 }
+
+.divider {
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #00caca, transparent);
+    margin: 12px auto;
+    border-radius: 2px;
+}
+
